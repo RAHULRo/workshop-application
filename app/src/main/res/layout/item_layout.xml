@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="#00ffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" >
+
+
+
+        <TextView
+            android:id="@+id/item_t1"
+            android:layout_marginTop="25dp"
+            android:height="60dp"
+            android:width="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Info "
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:typeface="serif"
+            android:gravity="center"/>
+
+        <Button
+            android:backgroundTint="@color/colorAccent"
+            android:background="#33dd33"
+            android:id="@+id/item_b1"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270sp"
+            android:layout_marginTop="30dp"
+            android:text="Apply" />
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
